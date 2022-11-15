@@ -3,6 +3,7 @@ import ormar
 #from pydantic import validator
 from config import database, metadata
 
+
 class Item(ormar.Model):
     
     class Meta:

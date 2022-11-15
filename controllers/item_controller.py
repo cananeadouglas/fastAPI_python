@@ -7,6 +7,7 @@ from models.requests.itemUpdate import ItemUpdate
 router = APIRouter()
 
 
+
 @router.post('/')
 async def add_item(item: Item):
     await item.save()

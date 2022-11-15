@@ -2,6 +2,7 @@ from fastapi import FastAPI
 
 from rotas import router
 
+
 app = FastAPI(
     title="Douglas - Teste FastAPI",
     description="test",

@@ -1,1 +1,1 @@
-web: uvicorn main:app
+web: . fast/bin/activate && uvicorn main:app

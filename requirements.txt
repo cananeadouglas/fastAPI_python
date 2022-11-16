@@ -4,9 +4,12 @@ aiosqlite==0.17.0
 anyio==3.6.2
 astunparse==1.6.3
 cachetools==5.2.0
+certifi==2022.9.24
+charset-normalizer==2.1.1
 click==8.1.3
 databases==0.6.1
 distlib==0.3.6
+docopt==0.6.2
 et-xmlfile==1.1.0
 fastapi==0.86.0
 filelock==3.8.0
@@ -40,6 +43,7 @@ ormar==0.12.0
 packaging==21.3
 pbr==5.10.0
 pipenv==2022.10.12
+pipreqs==0.4.11
 platformdirs==2.5.2
 protobuf==3.19.6
 pydantic==1.10.2
@@ -47,6 +51,7 @@ pyparsing==3.0.9
 python-dotenv==0.21.0
 python-multipart==0.0.5
 PyYAML==6.0
+requests==2.28.1
 requests-oauthlib==1.3.1
 rsa==4.9
 six==1.16.0
@@ -62,6 +67,7 @@ tensorflow-estimator==2.10.0
 tensorflow-io-gcs-filesystem==0.27.0
 termcolor==2.0.1
 typing_extensions==4.4.0
+urllib3==1.26.12
 uvicorn==0.19.0
 uvloop==0.17.0
 virtualenv==20.16.5
@@ -72,4 +78,5 @@ watchfiles==0.18.1
 websockets==10.4
 Werkzeug==2.2.2
 wrapt==1.14.1
+yarg==0.1.9
 zipp==3.9.0

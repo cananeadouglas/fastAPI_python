@@ -9,7 +9,7 @@ class Item(ormar.Model):
     class Meta:
         metadata = metadata
         database = database
-        tablename = "items"
+        tablename = "itens"
     
     id: int = ormar.Integer(primary_key=True)
     nome: str = ormar.String(max_length=100)
